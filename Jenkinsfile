@@ -25,7 +25,7 @@ pipeline {
                 sh '''
                     echo 'Test stage'
                     find build/index.html
-                    if [ $? -eq 0]; then
+                    if [ $? -eq 0 ]; then
                         echo 'file build/index.html exist'
                     fi
                 '''
