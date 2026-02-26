@@ -28,6 +28,7 @@ pipeline {
                     if [ $? -eq 0 ]; then
                         echo 'file build/index.html exist'
                     fi
+                    npm test
                 '''
             }
         }
